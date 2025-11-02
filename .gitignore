@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/var/log/
+/tmp/
+modsec_audit.log
+/var/log/modsec_audit/
+
+# Secrets and local configs
+*.env
+*.secret
+*.pem
+/private/
+
+# Binaries & compiled modules (do NOT commit)
+*.so
+*.dll
+*.exe
+
+# XAMPP / Windows specific
+xampp/
+C:/xampp/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Node / Python caches
+node_modules/
+__pycache__/
+*.pyc
