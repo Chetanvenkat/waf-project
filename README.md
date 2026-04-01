@@ -14,7 +14,7 @@ This repository contains configuration and helper files for a local Web Applicat
 - `tests/test.php` — sanitized test page for XSS/SQLi testing
 - `.gitignore` — recommended ignores
 
-## Quick Start (high level)
+## STEPS 
 1. Ensure XAMPP/Apache is installed on Windows and listening on a chosen port (e.g., 8081).
 2. In Windows, copy `tests/test.php` to `C:\xampp\htdocs\test.php`.
 3. In WSL (Ubuntu):
