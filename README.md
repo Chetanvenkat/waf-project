@@ -32,10 +32,5 @@ This repository contains configuration and helper files for a local Web Applicat
    - WAF route (goes through Nginx + ModSecurity): `http://localhost/test.php?id=<script>alert(1)</script>`
    - Direct Apache bypass: `http://localhost:8081/test.php?id=<script>alert(1)</script>`
 
-## Notes & best practices
-- Keep CRS files out of the main repo if they are large: reference them in README and instruct users to install CRS system-wide.
-- Never commit private keys or binary modules (`*.so`/`*.dll`). Use download instructions or scripts.
-- Start ModSecurity in `DetectionOnly` mode when tuning, then set `SecRuleEngine On` to block.
-
 ## Author
-Chetan Nagulakonda — Cybersecurity / Blue Team
+Chetan Nagulakonda — Cybersecurity
